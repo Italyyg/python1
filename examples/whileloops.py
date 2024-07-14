@@ -1,6 +1,6 @@
 # defining a variable
 i=1
-# as long as condition is true the while loop will continue
+# as long as condition is true the while loop will continue to run code
 while i<=10:
     print(i)
     # adding while looping everytime

@@ -1,0 +1,24 @@
+hi girly
+how are you
+good and chu?
+mm good
+I love python, it's so fun!
+Kelly - Customer Service
+
+
+                          MODULES
+Getting other functions from a diffrent file is possible by importing it
+at the top of your file you want to add  "import `file name`" then 
+use " print (filename.function_you_want())"
+
+link for modules that were already created that you can use
+prewritten code of functions 
+https://docs.python.org/3/py-modinex.html
+
+installing python docs
+PIP is used to install python modules
+You can check if you have PIP type "pip --version"
+TO INSTALL:
+    pip install module-name.docx
+
+"site-packages" is where it would be stored when being a third party
