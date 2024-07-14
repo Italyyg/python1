@@ -22,3 +22,52 @@ TO INSTALL:
     pip install module-name.docx
 
 "site-packages" is where it would be stored when being a third party
+
+                    INHERITANCE 
+creating a class that has functions:
+    class Chef:
+            def make_chicken(self):
+                print("The chef makes a chicken")
+
+            def make_salad(self):
+                print("The chef makes a salad")
+
+            def make_special_dish(self):
+                print("The chef makes bbq ribs")
+
+Now go to the file you want to import this class into
+
+from Chef import Chef
+
+myChef = Chef()
+myChef.make_chicken()-----this will print the prompt
+
+Maybe we wanna make a class that defines a new type of chef, new file
+    class ChineseChef:
+        def make_chicken(self):
+                print("The chef makes a chicken")
+
+            def make_salad(self):
+                print("The chef makes a salad")
+
+            def make_special_dish(self):
+                print("The chef makes orange chicken")
+            def make_fried_rice(self):
+            print("The chef makes fried rice")
+
+now you go back to your file where you want to import the file
+from Chef import Chef
+from ChineseChef import ChineseChef
+
+myChef = Chef()
+myChef.make_special_dish()
+
+myChineseChef = ChineseChefChef()
+myChineseChef.make_special_dish()
+
+instead to copy from the original chef you can INHERITANCE
+from Chef import Chef
+
+class ChineseChef(Chef):
+    def make_special_dish(self):
+        print("The chef makes orange chicken")
