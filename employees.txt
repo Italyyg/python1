@@ -5,6 +5,12 @@ mm good
 I love python, it's so fun!
 Kelly - Customer Service
 
+Open Command Prompt to use Python Interprenter
+    Open the terminal, type in "python3"--on windows you google how to add
+    You can write python code in here, create variables do equations, make functions, if statement, etc..
+    An enviorment to test out code but not recommended to serious scripts
+    for quick test
+
 
                           MODULES
 Getting other functions from a diffrent file is possible by importing it
